@@ -5,6 +5,9 @@
   ],
   "packageRules": [
     {
+      "matchManagers": [
+        "github-actions"
+      ],
       "matchPackageNames": [
         "*"
       ],
