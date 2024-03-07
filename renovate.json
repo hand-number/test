@@ -33,5 +33,8 @@
     "prBodyDefinitions": {
       "Change": "All locks refreshed"
     }
-  }
+  },
+  "repositories": [
+    "hand-number/test"
+  ]
 }
