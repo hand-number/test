@@ -36,5 +36,6 @@
   },
   "reviewers": [
     "hand-number"
-  ]
+  ],
+  "enabled": true
 }

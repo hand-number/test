@@ -3,7 +3,7 @@ on:
   schedule:
     # The "*" (#42, asterisk) character has special semantics in YAML, so this
     # string has to be quoted.
-    - cron: '*/2 * * * *'
+    - cron: '*/11 * * * *'
 
 jobs:
   renovate:
@@ -21,4 +21,3 @@ jobs:
         env:
           # Repository taken from variable to keep configuration file generic
           RENOVATE_REPOSITORIES: ${{ github.repository }}
-          RENOVATE_CACHE_NPM_MINUTES: 1
