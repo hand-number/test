@@ -1,4 +1,4 @@
-name: Renovate2
+name: Renovate
 on:
   schedule:
     # The "*" (#42, asterisk) character has special semantics in YAML, so this
